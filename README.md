@@ -16,8 +16,7 @@ Example button for github:
 <a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-light.svg">![grafik](https://user-images.githubusercontent.com/78470530/219119400-8d1c93ff-5476-4b4d-ba65-b6839dffdf50.png)
-
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-light.svg">
   <img alt="Download on Modrinth" src="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
 </picture>
 </a>
@@ -26,14 +25,12 @@ Code:
 ```
 <a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">![grafik](https://user-images.githubusercontent.com/78470530/219118231-56047605-207b-4efd-b1b1-041832695dda.png)
-
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-light.svg">
   <img alt="Download on Modrinth" src="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
 </picture>
 </a>
 ```
-![grafik](https://user-images.githubusercontent.com/78470530/219118215-cddcc1af-3b53-47f1-8ead-f5547c0fdbb3.png)
 
 ### Shield
 
@@ -110,7 +107,7 @@ No button available yet
 
 ### Shield
 
-No shield servicec exits that I know of. Made a [custom .php file](/badge.php) to get functionality (This file needs to be hosted on your own webserver with php installed)
+No shield service exits that I know of. Made a [custom .php file](/badge.php) to get functionality (This file needs to be hosted on your own webserver with php installed)
 
 Example shield:
 

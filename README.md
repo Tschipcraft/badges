@@ -127,10 +127,6 @@ Other shield options from https://shields.io/ can be used!
 
 # Supported versions display
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&progress_bar=false&mc_background=false&icons=true&white_mode=false">
-  <source media="(prefers-color-scheme: light)" srcset="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&progress_bar=false&mc_background=false&icons=true&white_mode=true">
-  <img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&progress_bar=false&mc_background=false&icons=true&white_mode=false">
-</picture>
+<img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
 
 // TO-DO: Add documentation

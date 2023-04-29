@@ -42,7 +42,9 @@ Example shield:
 
 Code:
 
-```<img src="https://img.shields.io/modrinth/dt/better-flame-particles?colorA=181712&colorB=fff5c6&label=Modrinth&style=for-the-badge&logo=modrinth">```
+```
+<img src="https://img.shields.io/modrinth/dt/better-flame-particles?colorA=181712&colorB=fff5c6&label=Modrinth&style=for-the-badge&logo=modrinth">
+```
 
 ## Curse Forge
 
@@ -58,7 +60,9 @@ Logo url is https://www.curseforge.com/Content/2-0-8426-30189/Skins/CurseForge/i
 
 Code:
 
-```<img width="40px" alt="Visit on CurseForge" src="URL to the hosted .svg image (e.g. https://svgur.com/)">```
+```
+<img width="40px" alt="Visit on CurseForge" src="URL to the hosted .svg image (e.g. https://svgur.com/)">
+```
 
 ### Button
 
@@ -75,7 +79,7 @@ Code:
 </a>
 ```
 
-### Shield
+### Shield - Not updating anymore since Curse Forge website overhaul
 
 Custom shield service for Curse Forge: https://cf.way2muchnoise.eu/
 
@@ -107,7 +111,22 @@ No button available yet
 
 ### Shield
 
-No shield service exits that I know of. Made a [custom .php file](/badge.php) to get functionality (This file needs to be hosted on your own webserver with php installed)
+No shield service exits that I know of. Made a [custom PHP file](/endpoint.php) to create an endpoint that can be used in shields.io (This file needs to be hosted on your own webserver with php installed)
+
+Example shield:
+
+<img src="https://img.shields.io/endpoint?logo=data%3Aimage%2Fwebp%3Bbase64%2CUklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ%2FAJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb%2Fk3sYgGvraJIkpq5E3C60M%2BfbwYBmfkPAPj%2F78kRNnPJKxVqPkwCMQgq%2FI1Morbke9f%2Fcc5p9Qji1EawYTDAtm2rakNT77bBxv%2F%2FWo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki%2BUOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi%2FFAHe2mh%2FOKOA0envTquspCFwvcwECTMv7VW5ST2f%2BF6y1Uzm4R0lWLv%2B5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b%2BrncmpS7u4%2BdPfKvBOukW6Fqk1Ss1R9shQp%2F37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ%2BJGIIB&style=for-the-badge&url=https%3A%2F%2Ftschipcraft.ddns.net%2Fmod_resources%2Fendpoint.php%3Fproject%3Dtexture-pack%2Fbetter-flame-particles">
+
+Code:
+```
+<img src="https://img.shields.io/endpoint?logo=data%3Aimage%2Fwebp%3Bbase64%2CUklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ%2FAJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb%2Fk3sYgGvraJIkpq5E3C60M%2BfbwYBmfkPAPj%2F78kRNnPJKxVqPkwCMQgq%2FI1Morbke9f%2Fcc5p9Qji1EawYTDAtm2rakNT77bBxv%2F%2FWo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki%2BUOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi%2FFAHe2mh%2FOKOA0envTquspCFwvcwECTMv7VW5ST2f%2BF6y1Uzm4R0lWLv%2B5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b%2BrncmpS7u4%2BdPfKvBOukW6Fqk1Ss1R9shQp%2F37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ%2BJGIIB&style=for-the-badge&url=<URL to PHP file>?project=texture-pack/better-flame-particles">
+```
+
+project= defines the url slug for the project e.g. for planetminecraft.com/texture-pack/better-flame-particles/, it's texture-pack/better-flame-particles. Make sure to actually encode the URL to the hosted PHP file. For better configuration, use [the already available documentation on shields.io for endpoints](https://shields.io/endpoint).
+
+### Alternative shield
+
+If you don't want to use the endpoint solution, you can also directly embed [this custom PHP file](/badge.php).
 
 Example shield:
 
@@ -115,18 +134,31 @@ Example shield:
 
 Code:
 ```
-<img src="URL to badge.php?project=texture-pack/better-flame-particles&style=for-the-badge&logo=data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB">
+<img src="<URL to badge.php>?project=texture-pack/better-flame-particles&style=for-the-badge&logo=data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB">
 ```
 
-project= defines the url slug for the project e.g. for planetminecraft.com/texture-pack/better-flame-particles/, it's texture-pack/better-flame-particles
-style= uses the same format as the https://shields.io/ website
+project= defines the url slug for the project (for https://planetminecraft.com/texture-pack/better-flame-particles/, it will be texture-pack/better-flame-particles)<br>
+style= uses the same format as the https://shields.io/ website.<br>
 logo= defines a converted planetminecraft logo
-
-Other shield options from https://shields.io/ can be used!
 
 
 # Supported versions display
 
+[This PHP file](/supported/supported.php) creates a image that displays the supported Minecraft versions for your project.
+Make sure to include all assets in the subdirectory if you want to host and use it.
+
+untested_versions= defines a range of versions that have not yet been tested. A question mark will appear.<br>
+supported_versions= defines a range of versions that are supported. If the progress bar is enabled it will get filled. If icons are enabled, a green checkmark will appear.<br>
+total_versions= defines a range of versions that should be displayed. Any version not specified here will not get shown.<br>
+icons= defines whether icons are shown or not. (true/false)<br>
+desaturated_icons= defines whether icons should use their desaturated version or not. (true/false)<br>
+progress_bar= defines whether a Minecraft-styled progress bar is shown. (true/false)<br>
+mc_background= defines whether a Minecraft button will be used as the background. (true/false)<br>
+
+Example:
 <img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
 
-// TO-DO: Add documentation
+Code:
+```
+<img alt="Supported versions" src="<URL to file>?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
+```

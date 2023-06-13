@@ -23,7 +23,8 @@ $response = array(
   "schemaVersion" => 1,
   "label" => "Planet Minecraft",
   "logoSvg" => "data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB",
-  "color" => "3da2ff"
+  "color" => "3da2ff",
+  "cacheSeconds" => "172800"
 );
 
 // Set the download count or error message
@@ -31,7 +32,7 @@ if (count($matches) > 1) {
     $response["message"] = $matches[1];
 } else {
     $response["message"] = "Error retrieving download count!";
-	$response["isError"] = "true";
+    $response["isError"] = "true";
 }
 
 // Set the Content-Type header and output the JSON response

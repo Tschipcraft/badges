@@ -154,6 +154,7 @@ icons= defines whether icons are shown or not. (true/false)<br>
 desaturated_icons= defines whether icons should use their desaturated version or not. (true/false)<br>
 progress_bar= defines whether a Minecraft-styled progress bar is shown. (true/false)<br>
 mc_background= defines whether a Minecraft button will be used as the background. (true/false)<br>
+platform= defines a platform where this image will be displayed. based on this information the background color will take on the exact color value of the dark mode version of the specified platform. (modrinth/curseforge/none)
 
 Example:
 <img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">

@@ -10,6 +10,8 @@ $icons = filter_var($_GET['icons'], FILTER_VALIDATE_BOOLEAN);
 $progress_bar = filter_var($_GET['progress_bar'], FILTER_VALIDATE_BOOLEAN);
 $desaturated_icons = filter_var($_GET['desaturated_icons'], FILTER_VALIDATE_BOOLEAN);
 $white_mode = filter_var($_GET['white_mode'], FILTER_VALIDATE_BOOLEAN);
+$platform = $_GET['platform'];
+
 
 // Sort given version numbers
 usort($total_versions, function($a, $b) {
@@ -33,14 +35,18 @@ $black = imagecolorallocate($image, 0, 0, 0);
 $gray = imagecolorallocate($image, 192, 192, 192);
 $green = imagecolorallocate($image, 0, 255, 0);
 
-// Fill the image
-if ($white_mode) {
-  $transparent = imagecolorallocatealpha($image, 0, 0, 0, 127);
-  imagefill($image, 0, 0, $transparent);
-} else {
-  // Modrinth dark mode background -- TEMP
+// Fill the image (if platform is specified; use dark mode color)
+if ($platform == "curseforge") {
+  // CurseForge dark mode background
+  $custom = imagecolorallocate($image, 13, 13, 13);
+  imagefill($image, 0, 0, $custom);
+} else if ($platform == "modrinth") {
+  // Modrinth dark mode background
   $custom = imagecolorallocate($image, 38, 41, 47);
   imagefill($image, 0, 0, $custom);
+} else {
+  $transparent = imagecolorallocatealpha($image, 0, 0, 0, 127);
+  imagefill($image, 0, 0, $transparent);
 }
 
 // MC BACKGROUND
@@ -177,6 +183,4 @@ imagepng($image);
 
 // Clean up
 imagedestroy($image);
-imagedestroy($button);
-imagedestroy($resized_button);
 ?>

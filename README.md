@@ -15,19 +15,19 @@ Example button for github:
 
 <a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-light.svg">
-  <img alt="Download on Modrinth" src="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-light.svg">
+  <img alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
 </picture>
 </a>
 
 Code:
-```
+```markdown
 <a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-light.svg">
-  <img alt="Download on Modrinth" src="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-light.svg">
+  <img alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
 </picture>
 </a>
 ```
@@ -42,7 +42,7 @@ Example shield:
 
 Code:
 
-```
+```markdown
 <img src="https://img.shields.io/modrinth/dt/better-flame-particles?colorA=181712&colorB=fff5c6&label=Modrinth&style=for-the-badge&logo=modrinth">
 ```
 
@@ -52,7 +52,7 @@ No official asset repository
 
 ### Logo
 
-Logo url is https://www.curseforge.com/Content/2-0-8426-30189/Skins/CurseForge/images/anvil.svg but unusable for inbeds
+Logo is unusable for inbeds
 
 [Custom made dark mode responsive logo](/curseforge.svg):
 
@@ -60,22 +60,30 @@ Logo url is https://www.curseforge.com/Content/2-0-8426-30189/Skins/CurseForge/i
 
 Code:
 
-```
+```markdown
 <img width="40px" alt="Visit on CurseForge" src="URL to the hosted .svg image (e.g. https://svgur.com/)">
 ```
 
 ### Button
 
-Custom button for github (no svg, no white mode, hosted on imgur):
+[Custom made button](assets/curseforge-badge-dark.svg):
 
 <a href="https://www.curseforge.com/minecraft/texture-packs/better-flame-particles">
-<img alt="Download on CurseForge" src="https://i.imgur.com/zcIcoGb.png">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/curseforge-badge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/curseforge-badge-light.svg">
+  <img alt="Download on CurseForge" src="assets/curseforge-badge-dark.svg">
+</picture>
 </a>
 
 Code:
-```
+```markdown
 <a href="https://www.curseforge.com/minecraft/texture-packs/better-flame-particles">
-<img alt="Download on CurseForge" src="https://i.imgur.com/zcIcoGb.png">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/curseforge-badge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/curseforge-badge-light.svg">
+  <img alt="Download on CurseForge" src="assets/curseforge-badge-dark.svg">
+</picture>
 </a>
 ```
 
@@ -88,7 +96,7 @@ Example shield:
 <img src="https://cf.way2muchnoise.eu/full_782814_downloads.svg?badge_style=for_the_badge">
 
 Code:
-```
+```markdown
 <img src="https://cf.way2muchnoise.eu/full_782814_downloads.svg?badge_style=for_the_badge">
 ```
 
@@ -101,7 +109,7 @@ https://www.planetminecraft.com/images/layout/favicon-128.png
 <img width="40px" alt="Visit on PlanetMinecraft" src="https://www.planetminecraft.com/images/layout/favicon-128.png">
 
 Code:
-```
+```markdown
 <img width="40px" alt="Visit on PlanetMinecraft" src="https://www.planetminecraft.com/images/layout/favicon-128.png">
 ```
 
@@ -118,7 +126,7 @@ Example shield:
 <img src="https://img.shields.io/endpoint?logo=data%3Aimage%2Fwebp%3Bbase64%2CUklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ%2FAJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb%2Fk3sYgGvraJIkpq5E3C60M%2BfbwYBmfkPAPj%2F78kRNnPJKxVqPkwCMQgq%2FI1Morbke9f%2Fcc5p9Qji1EawYTDAtm2rakNT77bBxv%2F%2FWo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki%2BUOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi%2FFAHe2mh%2FOKOA0envTquspCFwvcwECTMv7VW5ST2f%2BF6y1Uzm4R0lWLv%2B5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b%2BrncmpS7u4%2BdPfKvBOukW6Fqk1Ss1R9shQp%2F37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ%2BJGIIB&style=for-the-badge&url=https%3A%2F%2Ftschipcraft.ddns.net%2Fmod_resources%2Fendpoint.php%3Fproject%3Dtexture-pack%2Fbetter-flame-particles">
 
 Code:
-```
+```markdown
 <img src="https://img.shields.io/endpoint?logo=data%3Aimage%2Fwebp%3Bbase64%2CUklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ%2FAJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb%2Fk3sYgGvraJIkpq5E3C60M%2BfbwYBmfkPAPj%2F78kRNnPJKxVqPkwCMQgq%2FI1Morbke9f%2Fcc5p9Qji1EawYTDAtm2rakNT77bBxv%2F%2FWo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki%2BUOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi%2FFAHe2mh%2FOKOA0envTquspCFwvcwECTMv7VW5ST2f%2BF6y1Uzm4R0lWLv%2B5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b%2BrncmpS7u4%2BdPfKvBOukW6Fqk1Ss1R9shQp%2F37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ%2BJGIIB&style=for-the-badge&url=<URL to PHP file>?project=texture-pack/better-flame-particles">
 ```
 
@@ -133,7 +141,7 @@ Example shield:
 <img src="https://tschipcraft.ddns.net/mod_resources/badge.php?project=texture-pack/better-flame-particles/&style=for-the-badge&logo=data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB">
 
 Code:
-```
+```markdown
 <img src="<URL to badge.php>?project=texture-pack/better-flame-particles&style=for-the-badge&logo=data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB">
 ```
 
@@ -160,6 +168,6 @@ Example:
 <img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
 
 Code:
-```
+```markdown
 <img alt="Supported versions" src="<URL to file>?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
 ```

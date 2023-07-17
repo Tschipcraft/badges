@@ -80,14 +80,14 @@ Code:
 ```markdown
 <a href="https://www.curseforge.com/minecraft/texture-packs/better-flame-particles">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/curseforge-badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/curseforge-badge-light.svg">
-  <img alt="Download on CurseForge" src="assets/curseforge-badge-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-light.svg">
+  <img alt="Download on CurseForge" src="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-dark.svg">
 </picture>
 </a>
 ```
 
-### Shield - Not updating anymore since Curse Forge website overhaul
+### Shield
 
 Custom shield service for Curse Forge: https://cf.way2muchnoise.eu/
 

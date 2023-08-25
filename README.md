@@ -1,8 +1,8 @@
 # Badges
 
-This repository houses logos, button and shields for various minecraft-related websites to enhance your README.md pages!
+This repository houses info for logos, buttons and shields for various minecraft-related websites to enhance your README.md pages!
 
-It also features a supported version display that can be embedded on Curse Forge, Modrinth and GitHub.
+Please self-host the custom assets this repo provides.
 
 # Logos, Buttons and Shields
 
@@ -11,7 +11,7 @@ Assets ranging from logos to buttons can be found at https://github.com/modrinth
 
 ### Button
 
-Example button for github:
+Example button:
 
 <a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
 <picture>
@@ -32,11 +32,13 @@ Code:
 </a>
 ```
 
+A alternative button can also be found in [🏅 Devin's Badges repo](https://intergrav.github.io/devins-badges-docs/badges/cozy/#modrinth).
+
 ### Shield
 
-https://shields.io/ covers modrinth by default.
+Modrinth shields are available on https://shields.io/.
 
-Example shield:
+Example Modrinth downloads shield:
 
 <img src="https://img.shields.io/modrinth/dt/better-flame-particles?colorA=181712&colorB=fff5c6&label=Modrinth&style=for-the-badge&logo=modrinth">
 
@@ -54,19 +56,19 @@ No official asset repository
 
 Logo is unusable for inbeds
 
-[Custom made dark mode responsive logo](/curseforge.svg):
+[Custom made logo](assets/curseforge-orange.svg):
 
-<img width="40px" alt="Visit on CurseForge" src="/curseforge.svg">
+<img width="40px" alt="Visit on CurseForge" src="assets/curseforge-orange.svg">
 
 Code:
 
 ```markdown
-<img width="40px" alt="Visit on CurseForge" src="URL to the hosted .svg image (e.g. https://svgur.com/)">
+<img width="40px" alt="Visit on CurseForge" src="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-orange.svg">
 ```
 
 ### Button
 
-[Custom made button](assets/curseforge-badge-dark.svg):
+[Custom made button that fits the Modrinth style](assets/curseforge-badge-dark.svg):
 
 <a href="https://www.curseforge.com/minecraft/texture-packs/better-flame-particles">
 <picture>
@@ -87,9 +89,23 @@ Code:
 </a>
 ```
 
+A alternative button can also be found in [🏅 Devin's Badges repo](https://intergrav.github.io/devins-badges-docs/badges/cozy/#curseforge).
+
 ### Shield
 
-Custom shield service for Curse Forge: https://cf.way2muchnoise.eu/
+https://shields.io/ now officially supports CurseForge! 🎉
+
+Example CurseForge downloads shield:
+
+<img src="https://img.shields.io/curseforge/dt/782814?label=CurseForge&colorA=191700&colorB=e3e1ce&style=for-the-badge&logo=curseforge">
+
+Code:
+
+```markdown
+<img src="https://img.shields.io/curseforge/dt/782814?label=CurseForge&colorA=191700&colorB=e3e1ce&style=for-the-badge&logo=curseforge">
+```
+
+Alternate shield service for Curse Forge: https://cf.way2muchnoise.eu/
 
 Example shield:
 
@@ -115,7 +131,7 @@ Code:
 
 ### Button
 
-No button available yet
+No button available
 
 ### Shield
 

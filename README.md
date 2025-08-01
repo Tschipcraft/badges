@@ -7,32 +7,11 @@ Please self-host the custom assets this repo provides.
 # Logos, Buttons and Shields
 
 ## Modrinth
-Assets ranging from logos to buttons can be found at https://github.com/modrinth/art
+~~Assets ranging from logos to buttons can be found at [https://github.com/modrinth/art](https://web.archive.org/web/20220712131732/https://github.com/modrinth/art)~~. Sadly this repository has been deleted.
 
 ### Button
 
-Example button:
-
-<a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-light.svg">
-  <img alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
-</picture>
-</a>
-
-Code:
-```markdown
-<a href="https://modrinth.com/resourcepack/better-flame-particles/versions">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-light.svg">
-  <img alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
-</picture>
-</a>
-```
-
-A alternative button can also be found in [🏅 Devin's Badges repo](https://intergrav.github.io/devins-badges-docs/badges/cozy/#modrinth).
+A button can be found in [🏅 Devin's Badges repo](https://intergrav.github.io/devins-badges-docs/badges/cozy/#modrinth).
 
 ### Shield
 
@@ -48,13 +27,13 @@ Code:
 <img src="https://img.shields.io/modrinth/dt/better-flame-particles?colorA=181712&colorB=fff5c6&label=Modrinth&style=for-the-badge&logo=modrinth">
 ```
 
-## Curse Forge
+## CurseForge
 
-No official asset repository
+No official asset repository.
 
 ### Logo
 
-Logo is unusable for inbeds
+Logo is unusable for inbeds.
 
 [Custom made logo](assets/curseforge-orange.svg):
 
@@ -131,59 +110,47 @@ Code:
 
 ### Button
 
-No button available
+No button available.
 
 ### Shield
 
-No shield service exits that I know of. Made a [custom PHP file](/endpoint.php) to create an endpoint that can be used in shields.io (This file needs to be hosted on your own webserver with php installed)
-
-Example shield:
-
-<img src="https://img.shields.io/endpoint?logo=data%3Aimage%2Fwebp%3Bbase64%2CUklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ%2FAJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb%2Fk3sYgGvraJIkpq5E3C60M%2BfbwYBmfkPAPj%2F78kRNnPJKxVqPkwCMQgq%2FI1Morbke9f%2Fcc5p9Qji1EawYTDAtm2rakNT77bBxv%2F%2FWo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki%2BUOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi%2FFAHe2mh%2FOKOA0envTquspCFwvcwECTMv7VW5ST2f%2BF6y1Uzm4R0lWLv%2B5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b%2BrncmpS7u4%2BdPfKvBOukW6Fqk1Ss1R9shQp%2F37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ%2BJGIIB&style=for-the-badge&url=https%3A%2F%2Ftschipcraft.ddns.net%2Fmod_resources%2Fendpoint.php%3Fproject%3Dtexture-pack%2Fbetter-flame-particles">
+No shield service exists that I know of. ~~Made a [custom PHP file](/endpoint.php) to create an endpoint that can be used in shields.io (This file needs to be hosted on your own webserver with PHP installed).~~ The code for this shield does not work anymore.
 
 Code:
 ```markdown
 <img src="https://img.shields.io/endpoint?logo=data%3Aimage%2Fwebp%3Bbase64%2CUklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ%2FAJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb%2Fk3sYgGvraJIkpq5E3C60M%2BfbwYBmfkPAPj%2F78kRNnPJKxVqPkwCMQgq%2FI1Morbke9f%2Fcc5p9Qji1EawYTDAtm2rakNT77bBxv%2F%2FWo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki%2BUOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi%2FFAHe2mh%2FOKOA0envTquspCFwvcwECTMv7VW5ST2f%2BF6y1Uzm4R0lWLv%2B5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b%2BrncmpS7u4%2BdPfKvBOukW6Fqk1Ss1R9shQp%2F37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ%2BJGIIB&style=for-the-badge&url=<URL to PHP file>?project=texture-pack/better-flame-particles">
 ```
 
-project= defines the url slug for the project e.g. for planetminecraft.com/texture-pack/better-flame-particles/, it's texture-pack/better-flame-particles. Make sure to actually encode the URL to the hosted PHP file. For better configuration, use [the already available documentation on shields.io for endpoints](https://shields.io/endpoint).
+`project=` defines the url slug for the project e.g. for planetminecraft.com/texture-pack/better-flame-particles/, it's texture-pack/better-flame-particles.  
+Make sure to actually encode the URL to the hosted PHP file. For better configuration, use [the already available documentation on shields.io for endpoints](https://shields.io/endpoint).
 
-### Alternative shield
-
-If you don't want to use the endpoint solution, you can also directly embed [this custom PHP file](/badge.php).
-
-Example shield:
-
-<img src="https://tschipcraft.ddns.net/mod_resources/badge.php?project=texture-pack/better-flame-particles/&style=for-the-badge&logo=data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB">
-
-Code:
-```markdown
-<img src="<URL to badge.php>?project=texture-pack/better-flame-particles&style=for-the-badge&logo=data:image/webp;base64,UklGRmYBAABXRUJQVlA4TFoBAAAvP8APEJ/AJgCANDjcRHDt34QCWoH5aqgJAKQBbtzb/k3sYgGvraJIkpq5E3C60M+fbwYBmfkPAPj/78kRNnPJKxVqPkwCMQgq/I1Morbke9f/cc5p9Qji1EawYTDAtm2rakNT77bBxv//Wo6Hg5q2j2tH9H8CUvArNJ36d9a5F2d2dt53ki+UOVUHLOZ6PGmVNA3mKClDf9iVdzcdvi/FAHe2mh/OKOA0envTquspCFwvcwECTMv7VW5ST2f+F6y1Uzm4R0lWLv+5hsrR6erLWxqkSw3m9aqvMlYPkp6msemeJF1PukoGrvIwX8BsZtMzmE8gm1u5Q8en6cnADJyFgxS0OhvwKBL4gJlTpVsAfMxA3XdMchqbmc2lPoO8b+rncmpS7u4+dPfKvBOukW6Fqk1Ss1R9shQp/37YHe8gdwgxHOw1Kfg8qWEEBKQz1u1GOvENBJ+JGIIB">
-```
-
-project= defines the url slug for the project (for https://planetminecraft.com/texture-pack/better-flame-particles/, it will be texture-pack/better-flame-particles)<br>
-style= uses the same format as the https://shields.io/ website.<br>
-logo= defines a converted planetminecraft logo
-
-
-# Supported versions display
+# Supported Versions Display
 
 [This PHP file](/supported/supported.php) creates a image that displays the supported Minecraft versions for your project.
-Make sure to include all assets in the subdirectory if you want to host and use it.
+Make sure to include all assets in the subdirectory if you want to host and use it. [Font Source](https://fonts2u.com/minecraft-regular.font).
 
-untested_versions= defines a range of versions that have not yet been tested. A question mark will appear.<br>
-supported_versions= defines a range of versions that are supported. If the progress bar is enabled it will get filled. If icons are enabled, a green checkmark will appear.<br>
-total_versions= defines a range of versions that should be displayed. Any version not specified here will not get shown.<br>
-icons= defines whether icons are shown or not. (true/false)<br>
-desaturated_icons= defines whether icons should use their desaturated version or not. (true/false)<br>
-progress_bar= defines whether a Minecraft-styled progress bar is shown. (true/false)<br>
-mc_background= defines whether a Minecraft button will be used as the background. (true/false)<br>
-platform= defines a platform where this image will be displayed. based on this information the background color will take on the exact color value of the dark mode version of the specified platform. (modrinth/curseforge/none)
+`total_versions=` defines a range of versions that should be displayed. Any version not specified here will not be shown.<br>
+`supported_versions=` defines a range of supported versions. If the progress bar is enabled, it will be filled. If icons are enabled, a green checkmark will appear.<br>
+`not_updated_versions=` defines a range of versions that will no longer receive updates. If the progress bar is enabled, it will be partially filled in. If icons are enabled, a desaturated checkmark will appear. There is no special case when desaturated icons are on.<br>
+`untested_versions=` defines a range of versions that have not yet been tested. A question mark will appear.<br>
+`icons=` defines whether icons are shown. (true/false)<br>
+`desaturated_icons=` defines whether icons should use their desaturated version. (true/false)<br>
+`progress_bar=` defines whether a Minecraft-styled progress bar is shown. (true/false)<br>
+`mc_background=` defines whether a Minecraft button texture  will be used as the background. (true/false)<br>
+`platform=` defines the platform on which this image will be displayed. If the progress_bar is disabled, the background color will be the exact color value of the specified platform. (modrinth/curseforge/none)
 
-Example:
-<img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
+There is also an alternative/more modern cross texture in the subdirectory. If you want to use it, exchange it with cross.png.
+
+Examples:
+<img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?not_updated_versions=1.15,1.16&untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false&platform=modrinth">
+
+<img alt="Supported versions" src="https://tschipcraft.ddns.net/mod_resources/supported/supported.php?not_updated_versions=1.15,1.16&untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&mc_background=true&progress_bar=true">
 
 Code:
 ```markdown
-<img alt="Supported versions" src="<URL to file>?untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false">
+<img alt="Supported versions" src="<URL to file>/supported.php?not_updated_versions=1.15,1.16&untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&icons=true&white_mode=false&platform=modrinth">
+```
+
+```markdown
+<img alt="Supported versions" src="<URL to file>/supported.php?not_updated_versions=1.15,1.16&untested_versions=1.20&supported_versions=1.17,1.18,1.19&total_versions=1.13,1.14,1.15,1.16,1.17,1.18,1.19,1.20&mc_background=true&progress_bar=true">
 ```

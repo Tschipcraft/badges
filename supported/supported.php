@@ -178,7 +178,7 @@ if ($progress_bar) {
 $supported_version_count = count($supported_versions);
 for ($i = 0; $i < count($total_versions); $i++) {
   $version = $total_versions[$i];
-  $version_width = ($bar_width - ($bar_gap * (count($total_versions) - 1))) / count($total_versions);
+  $version_width = (int)(($bar_width - ($bar_gap * (count($total_versions) - 1))) / count($total_versions));
   $version_x = $bar_x + ($version_width + $bar_gap) * $i;
 
   // Draw the version name
